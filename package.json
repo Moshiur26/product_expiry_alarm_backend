@@ -1,0 +1,24 @@
+{
+  "name": "product_expiry_alarm_backend",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "homepage": "https://github.com/Moshiur26/product_expiry_alarm_backend#readme",
+  "bugs": {
+    "url": "https://github.com/Moshiur26/product_expiry_alarm_backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moshiur26/product_expiry_alarm_backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
