@@ -3,6 +3,11 @@ require "active_support/core_ext/integer/time"
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # Allow ngrok tunnels for secure Shopify OAuth redirects
+  config.hosts = (config.hosts rescue []) << /.+\.ngrok-.*\.app/
+  # Allow Cloudflare tunnels for secure Shopify OAuth redirects
+  config.hosts = (config.hosts rescue []) << /[-\w]+\.trycloudflare\.com/
+
   # Make code changes take effect immediately without server restart.
   config.enable_reloading = true
 
